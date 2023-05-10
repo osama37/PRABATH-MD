@@ -3,29 +3,29 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split(",")
-global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
+global.owner = process.env.OWNER_NUMBER.split("37122227437")
+global.mongodb = process.env.MONGODB_URI || "mongodb://mongo:4LS6vpT29ZPyJrNhZEOe@containers-us-west-68.railway.app:6600"
 global.port= process.env.PORT || 5000
 global.email = 'sam@sec.live'
 global.github = 'https://github.com/prabathLK/PRABATH-MD'
-global.location = 'Sultanpur IN'
+global.location = 'Eg Cairo'
 global.gurl = 'https://instagram.com/' // add your username
 global.sudo = process.env.SUDO || '94762280384'
 global.devs = '94762280384';
 global.website = 'https://github.com/prabathLK/PRABATH-MD' //wa.me/+94762280384
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/H062oEI.jpeg'
 module.exports = {
-  botname: process.env.BOT_NAME || '𝐒𝐞𝐜𝐤𝐭𝐨𝐫 𝐁𝐨𝐭𝐭𝐨',
+  botname: process.env.BOT_NAME || '𝕺𝖃★𝕸𝖃',
   autosticker: process.env.AUTO_STICKER || 'false',
   autovoice: process.env.AUTO_VOICE || 'false',
   botapikey: process.env.BOTCAHX_API || '',
   alivepic: process.env.ALIVE_IMG || 'https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg',
-  alivemsj: process.env.ALIVE_MSJ || '*The bot developer is prabath* 🎊',
-  ownername:process.env.OWNER_NAME || 'PRABATH',
+  alivemsj: process.env.ALIVE_MSJ || '*The bot developer is 𝕺𝖃★𝕸𝖃* 🎊',
+  ownername:process.env.OWNER_NAME || ' 𝕺𝖃★𝕸𝖃',
   sessionName: process.env.SESSION_ID || 'PUT-HERE',
-  author: process.env.PACK_INFO.split(";")[0] || 'author', 
+  author: process.env.PACK_INFO.split("𝕺𝖃★𝕸𝖃")[0] || 'author', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
-  packname: process.env.PACK_INFO.split(";")[1] || 'Name',
+  packname: process.env.PACK_INFO.split("𝕺𝖃★𝕸𝖃")[1] || 'Name',
   autoreaction: process.env.AUTO_REACTION || 'off',
   antibadword : process.env.ANTI_BAD_WORD || 'nobadwordokey',
   alwaysonline: process.env.ALWAYS_ONLINE || 'false',
@@ -41,7 +41,7 @@ module.exports = {
   ALIVE_MESSAGE: process.env.ALIVE_MESSAGE || '',
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || 'put-key-here',
   VERSION: process.env.VERSION === undefined ? 'v.0.0.3' : process.env.VERSION,
-  LANG: process.env.THEME|| 'PRABATH-MD',
+  LANG: process.env.THEME|| '𝕺𝖃★𝕸𝖃┃𝟛𝟟',
   WORKTYPE: process.env.WORKTYPE === undefined ? 'public' : process.env.WORKTYPE
 };
 
